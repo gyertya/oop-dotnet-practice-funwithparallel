@@ -46,7 +46,7 @@ namespace SomeParallelFun
             Console.WriteLine(
                 $"\n\n\nTime for the normal loop:   {NormalForTime.TotalMilliseconds,15}ms\n" +
                 $"Time for the parallel loop: {ParalelForTime.TotalMilliseconds,15}ms\n" +
-                $"\tDelay: {delay}ms" + 
+                $"\n\tDelay: {delay}ms" + 
                 $"You have {Environment.ProcessorCount} processor(s) and the result proportion is: {prop}");
         }
     }
