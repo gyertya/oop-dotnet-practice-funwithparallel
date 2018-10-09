@@ -44,10 +44,10 @@ namespace SomeParallelFun
         {
             var prop = (double)NormalForTime.TotalMilliseconds / ParalelForTime.TotalMilliseconds;
             Console.WriteLine(
-                $"\n\n\nTime for the normal loop:   {NormalForTime.TotalMilliseconds,15}ms\n" +
-                $"Time for the parallel loop: {ParalelForTime.TotalMilliseconds,15}ms\n" +
-                $"\n\tDelay: {delay}ms" + 
-                $"You have {Environment.ProcessorCount} processor(s) and the result proportion is: {prop}");
+                $"\n\nTime for the normal loop:   {NormalForTime.TotalMilliseconds,15}ms" +
+                $"\nTime for the parallel loop: {ParalelForTime.TotalMilliseconds,15}ms" +
+                $"\nDelay: {delay}ms" + 
+                $"\nYou have {Environment.ProcessorCount} processor(s) and the result proportion is: {prop}");
         }
     }
 }
