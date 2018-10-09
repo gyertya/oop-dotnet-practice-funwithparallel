@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-dotnet-practice-funwithparallel", "oop-dotnet-practice-funwithparallel\oop-dotnet-practice-funwithparallel.csproj", "{D20F02AB-C1B9-4541-BC3E-246C92FC92C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20F02AB-C1B9-4541-BC3E-246C92FC92C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20F02AB-C1B9-4541-BC3E-246C92FC92C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20F02AB-C1B9-4541-BC3E-246C92FC92C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20F02AB-C1B9-4541-BC3E-246C92FC92C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649EAE21-AA51-4A76-AF1F-EFCF506F0A4E}
+	EndGlobalSection
+EndGlobal
